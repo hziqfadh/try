@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #185eb8;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Main heading */
+h1 {
+    color: white;
+    text-align: center;
+    padding: 25px 10px 5px;
+}
+
+.intro {
+    text-align: center;
+    padding: 5px 10px 20px;
+}
+
+/* Navigation bar */
+nav {
+    background: #123d78;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* Content sections */
+section {
+    background: #2872c9;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 8px;
+    scroll-margin-top: 10px;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+ol, ul {
+    padding-left: 25px;
+}
+
+/* Email link */
+section a {
+    color: white;
+}
+
+/* Footer */
+footer {
+    background: #123d78;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    section {
+        margin: 12px;
+        padding: 18px;
+    }
+}
